@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="index.css">
+  
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="b">
+  <div class="main">
+    <div class="sec">
+      <h1 >Grade Calculater System</h1>
+    </div>
+    <div class="name">
+    <p><b>Computer</b></p>
+    <input type="number" placeholder="marks" id="one">
+    <p><b>English</b></p>
+    <input type="number" placeholder="marks" id="two">
+    <p><b>Physics</b></p>
+    <input type="number" placeholder="marks" id="three" >
+    <p><b>Math</b> </p>
+    <input type="number" placeholder="marks" id="four">
+    <div class="but">
+    <button type="button" onclick='cal()'>Calculate</button>
+    </div>
+    </div>
+    <div class="box">
+      <table>
+        <tr>
+          <td>Total Marks: </td>
+          <td>400</td>
+        </tr>
+        <tr>
+          <td>Obtain Marks: </td>
+          <td id="obtain"></td>
+        </tr>
+        <tr>
+          <td>Grade:  </td>
+          <td id="grade"></td>
+        </tr>
+        <tr>
+          <td>Remarks: </td>
+          <td id="remark"></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
